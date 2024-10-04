@@ -11,7 +11,7 @@ public class Persona extends Thread{
 
     public void run(){
         for(int i=0; i<contatore; i++){
-            this.cestino.addMoneta(1);
+            this.cestino.addMoneta();
         }
     }
 }
